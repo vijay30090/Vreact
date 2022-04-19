@@ -27,7 +27,7 @@ function CustomTable() {
             <h1>Custom Table</h1>
 
         </header>
-        <section>
+        <section style={{margin:"0 auto", width:"50%"}}>
             <table border="1">
                 <tr>
                     <th>Name</th>

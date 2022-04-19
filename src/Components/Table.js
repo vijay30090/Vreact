@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import { autocompleteClasses } from '@mui/material';
 
 /*const columns = [
   { field: 'id', headerName: 'ID', width: 70 },
@@ -75,7 +76,7 @@ export default function DataTable() {
         )
 }, []);
   return (
-    <div style={{ height: 400, width: '100%' }}>
+    <div style={{ height: 400, width: '50%', margin:"0 auto" }}>
       <DataGrid
         rows={rows}
         columns={columns}
