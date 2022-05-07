@@ -76,7 +76,7 @@ export default function DataTable() {
         )
 }, []);
   return (
-    <div style={{ height: 400, width: '50%', margin:"0 auto" }}>
+    <div style={{ color:"green", height: 400, width: '50%', margin:"0 auto" }}>
       <DataGrid
         rows={rows}
         columns={columns}
