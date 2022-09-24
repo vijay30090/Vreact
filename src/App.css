@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+  
 }
 
 .App-logo {
@@ -30,7 +32,22 @@
 
 .Container {
   background-color: aqua;
-}
+  width: 500px;
+  height: 400px;
+  padding: 100px;
+  margin:  auto;
+  border-radius: 2rem;
+  }
+
+  input{
+    border-radius: 2rem;
+  }
+
+  .btn{
+    color: black;
+  }
+
+
 
 @keyframes App-logo-spin {
   from {
